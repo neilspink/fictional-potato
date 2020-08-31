@@ -27,3 +27,19 @@ docker run potato
 It outputs 'this is version 1' :D
 
 Commit changes and push to GitHub. 
+
+Setup automated build on Docker hub; source = master.
+
+Run 
+
+```
+docker pull neilspink/fictional-potato:latest
+docker run neilspink/fictional-potato:latest
+```
+
+Result as expected v1 appears.
+
+Updating Dockerfile to v2, committing changes and push.
+
+
+
